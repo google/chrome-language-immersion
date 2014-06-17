@@ -1,0 +1,179 @@
+#glit-popup * {
+  font-family: 'Open Sans', arial, serif;
+  font-size: 13px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+#glit-popup #container {
+  margin: 3px 5px 5px 5px;
+  background: #333435;
+  border-radius: 4px;
+  width: 218px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 36px;
+}
+
+#glit-popup header {
+  width: 208px;
+  height: 62px;
+  background: url(/img/popup/logo.png) no-repeat top left;
+  margin: 5px 5px 20px 5px;
+  padding: 0;
+  border: 0;
+  color: #d6d6d7;
+}
+#glit-popup header h1 {
+  padding: 11px 0 6px 0;
+  margin: 0;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: normal;
+}
+#glit-popup header p {
+  margin: 0;
+  font-size: 12px;
+}
+
+#glit-popup header img {
+ vertical-align: middle;
+}
+
+
+#glit-popup label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#glit-popup select#language {
+  float: left;
+  background: url(/img/popup/dropdown.png) no-repeat bottom right;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  /*padding: 0px 35px 2px 10px;*/
+  border: none;
+  border-radius: 3px;
+  line-height: 18px;
+  text-shadow: rgba(255, 255, 255, .6) 0 1px 0;
+  -webkit-appearance: none;
+  width: 148px;
+  height: 23px;
+  padding-left: 4px;
+  margin: 0 8px 0 20px;
+}
+
+#glit-popup select#language:focus {
+  outline: none;
+}
+
+#glit-popup #config-button {
+  float: left;
+  background: url(/img/popup/config-button.png) no-repeat top left;
+  width: 24px;
+  height: 23px;
+  cursor: pointer;
+}
+
+#glit-popup #config-menu {
+  display: none;
+  position: absolute;
+  margin: 30px 0 0 19px;
+  z-index: 999;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 20px 2px #888;
+  border: 1px solid #888;
+  width: 178px;
+}
+
+#glit-popup #config-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding: 3px 0;
+}
+
+#glit-popup #config-menu ul li {
+  color: #000;
+  padding: 3px 10px;
+  margin: 4px 0;
+}
+
+#glit-popup #config-menu ul li:hover {
+  background: blue;
+  color: #fff;
+}
+
+#glit-popup #config-menu ul li label {
+  display: inline;
+  cursor: pointer;
+  font-family: 'Open Sans', arial, serif;
+  font-size: 12px;
+}
+
+#glit-popup #config-menu ul li input {
+  position:relative;
+  top: 2px;
+}
+
+#glit-popup #section-fluency {
+  margin-top: 25px;
+}
+
+#glit-popup #fluency {
+  -webkit-appearance: none;
+  background: url('/img/popup/scrubber-background.png') no-repeat;
+  width: 200px;
+  height: 26px;
+  width: 185px;
+  height: 28px;
+}
+
+
+#glit-popup #fluency::-webkit-slider-thumb {
+   -webkit-appearance: none;
+  background: url('/img/popup/scrubber.png') no-repeat;
+  width: 19px;
+  height: 19px;
+  position:relative;
+  top: -9px;
+  margin-left:2px;
+}
+
+#glit-popup ul#toggle {
+  list-style: none;
+  margin: 30px 0 0 42px;
+  padding: 0;
+}
+
+#glit-popup ul#toggle li {
+  float: left;
+  display: block;
+  width: 67px;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 11px;
+  cursor: pointer;
+  background: #808080;
+  text-transform: uppercase;
+  margin-right: 2px;
+}
+
+#glit-popup ul#toggle li.selected {
+  background: #4b8cf7;
+}
+
+#glit-popup ul#toggle li.left {
+  border-radius: 4px 0 0 4px;
+}
+
+#glit-popup ul#toggle li.right {
+  border-radius: 0 4px 4px 0;
+}

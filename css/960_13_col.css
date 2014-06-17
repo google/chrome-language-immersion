@@ -1,0 +1,354 @@
+/*
+	Variable Grid System.
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+
+body {
+  min-width: 780px;
+}
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_13 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 780px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_13 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11,
+.push_12, .pull_12,
+.push_13, .pull_13 {
+	position:relative;
+}
+
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* Grid >> 13 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_13 .grid_1 {
+	width:40px;
+}
+
+.container_13 .grid_2 {
+	width:100px;
+}
+
+.container_13 .grid_3 {
+	width:160px;
+}
+
+.container_13 .grid_4 {
+	width:220px;
+}
+
+.container_13 .grid_5 {
+	width:280px;
+}
+
+.container_13 .grid_6 {
+	width:340px;
+}
+
+.container_13 .grid_7 {
+	width:400px;
+}
+
+.container_13 .grid_8 {
+	width:460px;
+}
+
+.container_13 .grid_9 {
+	width:520px;
+}
+
+.container_13 .grid_10 {
+	width:580px;
+}
+
+.container_13 .grid_11 {
+	width:640px;
+}
+
+.container_13 .grid_12 {
+	width:700px;
+}
+
+.container_13 .grid_13 {
+	width:760px;
+}
+
+
+
+
+/* Prefix Extra Space >> 13 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_13 .prefix_1 {
+	padding-left:60px;
+}
+
+.container_13 .prefix_2 {
+	padding-left:120px;
+}
+
+.container_13 .prefix_3 {
+	padding-left:180px;
+}
+
+.container_13 .prefix_4 {
+	padding-left:240px;
+}
+
+.container_13 .prefix_5 {
+	padding-left:300px;
+}
+
+.container_13 .prefix_6 {
+	padding-left:360px;
+}
+
+.container_13 .prefix_7 {
+	padding-left:420px;
+}
+
+.container_13 .prefix_8 {
+	padding-left:480px;
+}
+
+.container_13 .prefix_9 {
+	padding-left:540px;
+}
+
+.container_13 .prefix_10 {
+	padding-left:600px;
+}
+
+.container_13 .prefix_11 {
+	padding-left:660px;
+}
+
+.container_13 .prefix_12 {
+	padding-left:720px;
+}
+
+
+
+/* Suffix Extra Space >> 13 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_13 .suffix_1 {
+	padding-right:60px;
+}
+
+.container_13 .suffix_2 {
+	padding-right:120px;
+}
+
+.container_13 .suffix_3 {
+	padding-right:180px;
+}
+
+.container_13 .suffix_4 {
+	padding-right:240px;
+}
+
+.container_13 .suffix_5 {
+	padding-right:300px;
+}
+
+.container_13 .suffix_6 {
+	padding-right:360px;
+}
+
+.container_13 .suffix_7 {
+	padding-right:420px;
+}
+
+.container_13 .suffix_8 {
+	padding-right:480px;
+}
+
+.container_13 .suffix_9 {
+	padding-right:540px;
+}
+
+.container_13 .suffix_10 {
+	padding-right:600px;
+}
+
+.container_13 .suffix_11 {
+	padding-right:660px;
+}
+
+.container_13 .suffix_12 {
+	padding-right:720px;
+}
+
+
+
+/* Push Space >> 13 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_13 .push_1 {
+	left:60px;
+}
+
+.container_13 .push_2 {
+	left:120px;
+}
+
+.container_13 .push_3 {
+	left:180px;
+}
+
+.container_13 .push_4 {
+	left:240px;
+}
+
+.container_13 .push_5 {
+	left:300px;
+}
+
+.container_13 .push_6 {
+	left:360px;
+}
+
+.container_13 .push_7 {
+	left:420px;
+}
+
+.container_13 .push_8 {
+	left:480px;
+}
+
+.container_13 .push_9 {
+	left:540px;
+}
+
+.container_13 .push_10 {
+	left:600px;
+}
+
+.container_13 .push_11 {
+	left:660px;
+}
+
+.container_13 .push_12 {
+	left:720px;
+}
+
+
+
+/* Pull Space >> 13 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_13 .pull_1 {
+	left:-60px;
+}
+
+.container_13 .pull_2 {
+	left:-120px;
+}
+
+.container_13 .pull_3 {
+	left:-180px;
+}
+
+.container_13 .pull_4 {
+	left:-240px;
+}
+
+.container_13 .pull_5 {
+	left:-300px;
+}
+
+.container_13 .pull_6 {
+	left:-360px;
+}
+
+.container_13 .pull_7 {
+	left:-420px;
+}
+
+.container_13 .pull_8 {
+	left:-480px;
+}
+
+.container_13 .pull_9 {
+	left:-540px;
+}
+
+.container_13 .pull_10 {
+	left:-600px;
+}
+
+.container_13 .pull_11 {
+	left:-660px;
+}
+
+.container_13 .pull_12 {
+	left:-720px;
+}

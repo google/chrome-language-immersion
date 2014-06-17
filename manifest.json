@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Language Immersion for Chrome",
+  "version": "1.0.5",
+  "description": "Experience a new language while you browse the web.",
+  "permissions": [
+    "http://translate.google.com/translate_a/t",
+    "tabs"
+  ],
+  "icons": { "16": "img/logos/16.png",
+             "48": "img/logos/48.png",
+             "128": "img/logos/128.png" },
+  "background" : {
+    "page" : "background.html"
+  },
+  "browser_action": {
+    "default_title": "Language Immersion for Chrome",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*"
+      ],
+      "js" : [
+        "js/jquery.js",
+        "js/common_words_5k_ordered.js",
+        "js/lit.js"
+      ],
+      "css" : [
+        "css/page-style.css"
+      ]
+    }
+  ]
+}
