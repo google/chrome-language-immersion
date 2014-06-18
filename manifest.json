@@ -23,7 +23,7 @@
         "http://*/*"
       ],
       "js" : [
-        "vendor/jquery/dist/jquery.min.js",
+        "vendor/jquery/jquery.js",
         "js/common_words_5k_ordered.js",
         "js/lit.js"
       ],
@@ -31,5 +31,6 @@
         "css/page-style.css"
       ]
     }
-  ]
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

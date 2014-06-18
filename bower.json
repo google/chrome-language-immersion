@@ -3,6 +3,6 @@
   "version": "1.0.5",
   "main": "bower.json",
   "dependencies": {
-    "jquery": "1.11.1"
+    "jquery": "~2.0.0"
   }
 }
