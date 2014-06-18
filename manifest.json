@@ -23,7 +23,7 @@
         "http://*/*"
       ],
       "js" : [
-        "third_party/jquery/jquery.js",
+        "vendor/jquery/dist/jquery.min.js",
         "js/common_words_5k_ordered.js",
         "js/lit.js"
       ],
