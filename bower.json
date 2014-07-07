@@ -1,0 +1,8 @@
+{
+  "name": "Google/chrome-language-immersion",
+  "version": "1.0.5",
+  "main": "bower.json",
+  "dependencies": {
+    "jquery": "~2.0.0"
+  }
+}

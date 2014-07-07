@@ -11,11 +11,11 @@
              "48": "img/logos/48.png",
              "128": "img/logos/128.png" },
   "background" : {
-    "page" : "background.html"
+    "page" : "html/background.html"
   },
   "browser_action": {
     "default_title": "Language Immersion for Chrome",
-    "default_popup": "popup.html"
+    "default_popup": "html/popup.html"
   },
   "content_scripts": [
     {
@@ -23,7 +23,7 @@
         "http://*/*"
       ],
       "js" : [
-        "js/jquery.js",
+        "vendor/jquery/jquery.js",
         "js/common_words_5k_ordered.js",
         "js/lit.js"
       ],
@@ -31,5 +31,6 @@
         "css/page-style.css"
       ]
     }
-  ]
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
